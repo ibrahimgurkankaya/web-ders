@@ -28,14 +28,14 @@
 
 
     $guncelYil = 2025;
-    $dogumTarihi = 2000;
+    $dogumTarihi = 2010;
     $yas = $guncelYil - $dogumTarihi;
     $yetersizYas = 18 - $yas;
 
     echo "<h4>Ehliyet Yaş Hesaplama</h4><br>";
 
     if ($yas >= 18) {
-        echo "$yas ındasınız araba ehliyeti alabilirsiniz";
+        echo "$yas yasındasınız araba ehliyeti alabilirsiniz";
     }   
     else {
        echo "$yas ındasınız araba ehliyeti alamazsınzız $yetersizYas yıl beklemeniz lazım";
@@ -45,24 +45,24 @@
 
     echo"<br><br><br>";
 
-    // $sayi1 = 50;
-    // $sayi2 = 10;
-    // $sonuc = $sayi1 % $sayi2;
-    // echo"<br> $sonuc";
-    // echo"<br> İşlemin Sonucu : $sayi1 % $sayi2 = $sonuc";
+    $sayi1 = 50;
+    $sayi2 = 10;
+    $sonuc = $sayi1 % $sayi2;
+    echo"<br> $sonuc";
+    echo"<br> İşlemin Sonucu : $sayi1 % $sayi2 = $sonuc";
 
-    // $sayi = 6;
-    // $sonuc = $sayi--;
-    // $sonuc = $sayi--;
-    // $sonuc = $sayi--;
-    // echo $sonuc;
+    $sayi = 6;
+    $sonuc = $sayi--;
+    $sonuc = $sayi--;
+    $sonuc = $sayi--;
+    echo $sonuc;
 
-    // echo "<br>";
-    // $sayi = 6;
-    // $sonuc = --$sayi;
-    // $sonuc = --$sayi;
-    // $sonuc = --$sayi;
-    // echo $sonuc;
+    echo "<br>";
+    $sayi = 6;
+    $sonuc = --$sayi;
+    $sonuc = --$sayi;
+    $sonuc = --$sayi;
+    echo $sonuc;
     
 
 ?>
